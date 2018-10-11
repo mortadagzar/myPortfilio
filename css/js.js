@@ -5,8 +5,14 @@ $(document).ready(function() {
 
 
     $(window).scroll(function() {
-        if ($(this).scrollTop() >= 5) { // this refers to window
-            alert("You've scrolled 100 pixels.");
+        if ($(window).scrollTop() >= 100) { // this refers to window
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: $(".fourth").offset().top
+            }, 1000);
+            clearTimeout(timeout);
+
+
         }
     });
 
