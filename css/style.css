@@ -19,7 +19,15 @@
     
     color: white;
 }
+.fa-envelope{
+    margin:0 auto;
+    position: relative;
+    font-size: 34px;
+    padding:12.3567%; 
+    margin-top: 6px;
+    color: white;
 
+}
 
 .sider{
    
@@ -40,7 +48,6 @@
     position: relative;
     font-size: 20px;
     padding: 4.3567%; 
-    
     color: white;
 }
 .fa-spin{
@@ -73,8 +80,44 @@
     font-size: 3em;
   }
   #first{
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply; }
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%); 
+
+overflow: hidden;
+
+}
+
+ .mortada{
+     width: 30vh;
+     border-radius: 50%;
+     border: 5px solid white;
+     margin: 0 auto;
+     transform: translateY(50%);
+     -webkit-box-shadow: -1px 2px 19px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 19px -2px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 19px -2px rgba(0,0,0,0.75);
+    animation: mortada .5s ease-in-out 1;
+ }
+ @keyframes mortada{
+     0%{
+        border: 50px solid white;
+        transform: translateY(0%);
+        opacity: 0; 
+     }
+     70%{
+        border: 40px solid white;
+        transform: translateY(57%);
+        opacity: 1; 
+     }
+     80%{
+        border: 3px solid white;
+        transform: translateY(47%); 
+    100%{
+        border: 5px solid white;
+        transform: translateY(50%); 
+        }
+     }
+
+ }
   #second{
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);  }
   #third{
