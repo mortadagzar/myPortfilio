@@ -1,5 +1,5 @@
 .header{
-    background: red;
+   
 }
 .link{
     float: left;
@@ -15,7 +15,7 @@
     margin:0 auto;
     position: relative;
     font-size: 54px;
-    padding: 4.3567%; 
+    padding:12.3567%; 
     
     color: white;
 }
@@ -24,7 +24,7 @@
 .sider{
    
     width: 8%;
-    left:86%;
+    left:83%;
     top:38%;
     padding:12px;
     height: 50%;

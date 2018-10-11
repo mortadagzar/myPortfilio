@@ -1,20 +1,6 @@
-$(document).ready(function() {
-  
-    
-
-
-    $(document).scroll(function() {
-        console.log($(document).scrollTop());
-    })
-
-
-
-
-
-
-
-
-
-
-
-});
+$(document).ready(function(){
+    $("body,html").scrollTop( 200 );
+        
+   
+        
+ });
