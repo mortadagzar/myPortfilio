@@ -1,55 +1,84 @@
-.container{
+.header{
+    background: red;
+}
+.link{
+    float: left;
+    width: 25%;
+    text-align:center;
+}
+.header_fixed{
+    position: fixed;
+    z-index: 999;
+}
+
+.fa-github{
+    margin:0 auto;
+    position: relative;
+    font-size: 54px;
+    padding: 4.3567%; 
     
-    
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 1vh 3vh 2vh 3vh;
+    color: white;
 }
 
 
-.first{
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    float: left;
-    width: 100%;
-    height:90vh;
-    border-radius: 3vh;
-    margin-bottom: 4vh;
-    margin-top:3vh;
+.sider{
+   
+    width: 8%;
+    left:86%;
+    top:38%;
+    padding:12px;
+    height: 50%;
+}
+.spine{
+    height: 15%;
+    width: 14%;
+    text-align:center;
+}
+
+.fa-cog{
+    margin:0 auto;
+    position: relative;
+    font-size: 20px;
+    padding: 4.3567%; 
     
+    color: white;
 }
-.second{
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    float: left;
-    width: 100%;
-    height:90vh;
-    border-radius: 3vh;
-    margin-bottom: 4vh;
-    margin-top:3vh;
+.fa-spin{
+    margin:0 auto;
+    position: relative;
+    font-size: 30px;
+    padding: 4.3567%; 
+    
+    color: white;
 }
-.third{
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    float: left;
-    width: 100%;
-    height:90vh;
-    border-radius: 3vh;
-    margin-bottom: 4vh;
-    margin-top:3vh;
-}
-.fourth{
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    float: left;
-    width: 100%;
-    height:90vh;
-    border-radius: 3vh;
-    margin-bottom: 4vh;
-    margin-top:3vh;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section {
+    text-align:center;
+    font-size: 3em;
+  }
+  #first{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply; }
+  #second{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);  }
+  #third{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;  }
+  #fourth{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);  }
