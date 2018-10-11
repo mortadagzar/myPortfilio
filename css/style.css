@@ -1,0 +1,34 @@
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.first{
+    
+    background: black;
+    width: 1900px;
+    height:100vh;
+}
+.second{
+    width: 1900px;
+    height:100vh;
+    background: green;
+}
+.third{
+    width: 1900px;
+    height:100vh;
+    background: blue;
+}
+.fourth{
+    width: 1900px;
+    height:100vh;
+    background: yellow;
+}
