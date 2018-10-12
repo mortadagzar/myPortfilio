@@ -1,9 +1,14 @@
 
-  #first{
+  #bodysec{
+    width:45vh;
+}
+ 
+ 
+ #first{
     background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
     animation: first 3s ease-in 1;
     height: 100vh;
-    width: 100%;
+    width:100%;
 }
 
   #second{
@@ -62,6 +67,7 @@ scroll-behavior: smooth;
     z-index: 6789;
     
  }
+
  .container {
      top:0%;
     width: 100vw;
@@ -172,15 +178,18 @@ scroll-behavior: smooth;
 .sider{
    
     width: 8%;
-    left:73%;
+    left:83%;
     top:38%;
     padding:12px;
     height: 50%;
 }
-.spine{
-    height: 15%;
-    width: 14%;
+.spines{
+    height: 27vh;
+    width: 4.4vh;
     text-align:center;
+    border-radius: 20vh;
+    border:3px solid orange;
+    
 }
 
 .fa-cog{
@@ -190,6 +199,7 @@ scroll-behavior: smooth;
     font-size: 20px;
     padding: 4.3567%; 
     color: white;
+    top :34px;
 }
 .fa-spin{
     margin:0 auto;

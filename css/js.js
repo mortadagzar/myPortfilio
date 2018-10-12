@@ -19,8 +19,10 @@ $(document).ready(function(){
 
 
 
-        var scroll=$(window).scrollTop();
-console.log(scroll);
+    var scroll=$(window).scrollTop();
+    console.log(scroll);
+    var $cog=$('.cog1');
+    $cog.css({'top':'scroll'});
     if($(this).scrollTop()>=666 & $(this).scrollTop() <=1336)
     {$('.fa-github').css({'color':'#243949'});
     $('.fa-envelope').css({'color':'#243949'});
