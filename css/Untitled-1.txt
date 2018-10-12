@@ -1,0 +1,12 @@
+  <div class="row bio" >
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                </div>
+        <div class="col-lg-8 col-md-4 col-sm-12">
+        <p class="me" style=" font-size: 14pt;
+        
+        
+        color: white;">'Web developer,Pythonista!,Django man,Bootstrap,sass,angular lover!</p>
+        </div>
+ <div class="col-lg-2 col-md-4 col-sm-12">
+ </div>
+                   </div>
