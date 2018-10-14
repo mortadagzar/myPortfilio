@@ -3,8 +3,7 @@
  width:45vh;
     
 }
- 
- #first{
+  #first{
    background-image:linear-gradient(to right, #243949 0%, #517fa4 100%);
     animation: first 3s ease-in 1;
     height: 100vh;
